@@ -7,9 +7,11 @@ for(int i=0;i<10;i++)
 		{
 			System.out.println("hello world..."+i);
 		}
-int a=9,b=0,c;
-c=a/b;
-System.out.println(c);
+char array[] = {'a','b','g','j'};
+/*I'm displaying the value which does not
+ * exist so this should throw an exception
+ */
+System.out.println(array[78]);
 
 	}
 
